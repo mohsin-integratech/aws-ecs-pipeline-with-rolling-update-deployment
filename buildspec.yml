@@ -55,3 +55,4 @@ artifacts:
     ImageArtifact:
       files:
         - imageDetail.json
+        - appspec.yaml
