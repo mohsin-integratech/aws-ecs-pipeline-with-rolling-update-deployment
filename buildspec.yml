@@ -50,7 +50,7 @@ artifacts:
   secondary-artifacts:
     DefinitionArtifact:
       files:
-        - appspec.yaml
+        - appspec.yml
         - taskdef.json
     ImageArtifact:
       files:
