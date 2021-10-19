@@ -1,12 +1,11 @@
-
 version: 0.2
 
 env:
   variables:
-    AWS_REGION: us-east-1
-    AWS_ACCOUNT_ID: 708995052028
-    IMAGE_NAME: aws-pipeline-with-ecs-rolling-update-deployment-image
-    CONTAINER_NAME: ecs-rolling-update-container
+    AWS_REGION: eu-central-1
+    AWS_ACCOUNT_ID: 038540414823
+    IMAGE_NAME: cicd-demo
+    CONTAINER_NAME: DemoNodeApp
 
 
 phases:
