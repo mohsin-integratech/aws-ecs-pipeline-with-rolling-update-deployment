@@ -3,7 +3,7 @@ Resources:
  - TargetService:
      Type: AWS::ECS::Service
      Properties:
-       TaskDefinition: arn:aws:ecs:eu-central-1:038540414823:task-definition/fargate-TD:2
+       TaskDefinition: <TASK_DEFINITION>
        LoadBalancerInfo:
          ContainerName: DemoNodeApp
          ContainerPort: 8080
