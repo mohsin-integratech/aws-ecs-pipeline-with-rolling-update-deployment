@@ -19,7 +19,7 @@ const ENV = 'QA';
 const app = express();
 app.get('/', (req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello from Integra Technologies123!';
+  const msg = 'Hello from Integra Technologies456!';
   res.send(getPage(msg));
 });
 
